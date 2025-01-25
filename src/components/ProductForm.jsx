@@ -23,6 +23,8 @@ const ProductForm = ({ toggleModal, productId }) => {
     }
   }, [productId, inventory]);
 
+  console.log(formData);
+
   useEffect(() => {
     if (!productId) {
       const id = inventory.length + 1;
@@ -43,7 +45,7 @@ const ProductForm = ({ toggleModal, productId }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    productId ? editProduct(productId) : addProduct(formData);
+    productId ? editProduct(formData) : addProduct(formData);
     console.log(formData);
     toggleModal();
   };

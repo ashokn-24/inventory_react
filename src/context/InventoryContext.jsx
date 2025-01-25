@@ -37,6 +37,7 @@ export const InventoryProvider = ({ children }) => {
   };
 
   const editProduct = (updatedProduct) => {
+    console.log(updatedProduct);
     setInventory(
       inventory.map((product) =>
         product.id === updatedProduct.id ? updatedProduct : product
