@@ -12,20 +12,6 @@
 
 ---
 
-## 📂 Folder Structure
-```
-📦 inventory-management
-├── 📁 src
-│   ├── 📁 components      # Reusable UI components (Table, ProductForm, Alert)
-│   ├── 📁 context         # InventoryContext for state management
-│   ├── 📄 App.js          # Main component
-│   ├── 📄 index.js        # Entry point
-│   └── 📄 styles.css      # Global styles
-└── 📄 README.md           # Project documentation
-```
-
----
-
 ## 🛠️ Installation & Setup
 To set up the project locally, follow these steps:
 
