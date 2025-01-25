@@ -1,8 +1,40 @@
-# React + Vite
+# Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+🔗 **[Deployed Link](https://inventorye.netlify.app/)**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **State Management:** Context API
+- **Icons:** React Icons
+
+---
+
+## 📂 Folder Structure
+```
+📦 inventory-management
+├── 📁 src
+│   ├── 📁 components      # Reusable UI components (Table, ProductForm, Alert)
+│   ├── 📁 context         # InventoryContext for state management
+│   ├── 📄 App.js          # Main component
+│   ├── 📄 index.js        # Entry point
+│   └── 📄 styles.css      # Global styles
+└── 📄 README.md           # Project documentation
+```
+
+---
+
+## 🛠️ Installation & Setup
+To set up the project locally, follow these steps:
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+```bash
+npm run dev
+```
